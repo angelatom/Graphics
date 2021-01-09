@@ -1,0 +1,51 @@
+line
+338 208 0 262 208 0
+display
+ident
+scale
+2 2 2
+apply
+display
+ident
+translate
+100 100 0
+line
+190 40 200 50 60 90
+apply
+display
+ident
+rotate
+z 20
+rotate
+x 20
+rotate
+y 20
+apply
+display
+line
+338 208 0 262 208 30
+line 
+262 208 0 208 262 30
+line
+208 262 0 208 338 30
+line
+208 338 0 262 392 30
+line
+262 392 0 338 392 30
+line
+338 392 0 392 338 30
+line 
+392 338 0 392 262 30
+line
+392 262 0 338 208 30
+display
+scale
+0.5 0.5 0.5
+apply
+display
+rotate
+y 10
+apply 
+display
+save
+pic.png

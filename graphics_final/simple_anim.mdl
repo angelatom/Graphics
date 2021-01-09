@@ -1,0 +1,9 @@
+constants shiny_teal 0.3 0.0 0.0 0.3 0.2 0.8 0.3 0.2 0.8
+constants dull_yellow 0.3 0.8 0.2 0.3 0.8 0.2 0 0 0
+push
+scale 100 100 100
+move 2 2 0
+rotate z 45
+mesh dull_yellow :iphone.obj
+display
+save sky.png

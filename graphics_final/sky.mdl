@@ -1,0 +1,11 @@
+constants shiny_purple 0.3 0.2 0.8 0.3 0 0 0.3 0.2 0.8
+constants shiny_teal 0.3 0.0 0.0 0.3 0.2 0.8 0.3 0.2 0.8
+constants dull_yellow 0.3 0.8 0.2 0.3 0.8 0.2 0 0 0
+push
+scale 10 10 10
+move 25 25 0
+rotate z 45
+rotate x 30
+mesh shiny_teal :iphone
+display
+save sky.png
